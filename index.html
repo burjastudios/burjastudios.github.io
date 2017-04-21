@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Burja Studios</title>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+  my-email::after {
+    content: attr(data-domain);
+  }
+  my-email::before {
+    content: attr(data-user) "\0040";
+  }
+</style>
+<body>
+
+<div id="container">
+	<div class="logo-container">
+		<img src="logo.png" width="200px" alt="Burja Studios">
+	</div>
+	<div class="short-description">
+		<p>An internet-based game development company based on Pokhara, Nepal.</p>
+		<p><my-email data-user="burjastudios" data-domain="gmail.com"></my-email></p>
+
+		<p><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fburjastudios%2F&width=400&layout=button_count&action=like&size=small&show_faces=true&share=true&height=46&appId" width="130" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></p>
+	</div>
+
+	<div class="game-list">
+	
+	<p class="list">Langur Burja - Tradition betting game played in Nepal and India. <div class="small">[<a href="https://play.google.com/store/apps/details?id=com.acharya.khorkhore">Get It On Google Play</a>]</div></p>
+	
+	<p class="list">Jhandi Munda - Tradition betting game played in India. <div class="small">[<a href="https://play.google.com/store/apps/details?id=game.burjastudios.jhandimunda">Get It On Google Play</a>]</div></p>
+
+	<p class="list">Kauda - Tradition betting game played in India and Nepal. It is played with 16 shells.<div class="small">[<a href="https://play.google.com/store/apps/details?id=com.acharya.kauda">Get It On Google Play</a>]</div></p>
+
+	</div>
+
+	<div class="footer">
+		&copy; 2017 Burja Studios. All Rights Reserved	
+	</div>
+</div>
+</body>
+</html>
