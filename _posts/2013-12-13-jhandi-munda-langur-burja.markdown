@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Jhandi Munda - Traditional classic game in your mobile phone"
-categories: uncategorized
+categories: game
 comments: false
 
 app_name: "Jhandi Munda"

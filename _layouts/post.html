@@ -11,8 +11,12 @@ layout: default
     {{ content }}
   </div>
 
-  <a href="{{ post.playstore_url }}">
+{% if page.playstore_url %}
+<div class="playstore_download">
+  <a href="{{ page.playstore_url }}">
     <img src="/assets/images/google_play_download.png" width="200px" /> 
   </a>
+</div>
+{% endif %}
 
 </article>
