@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="title" itemprop="name headline">{{ page.app_name | escape }}</h1>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <a href="{{ post.playstore_url }}">
+    <img src="/assets/images/google_play_download.png" width="200px" /> 
+  </a>
+
+</article>

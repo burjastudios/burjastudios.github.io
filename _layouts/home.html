@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<h1 class="title">
+Games
+</h1>
+
+<div class="game-container">
+{% for post in paginator.posts %}
+      <div class="game-list">
+        <a href="{{ post.url }}">
+        <img src="{{ post.thumbnail }}" class="game-img" width="80px" align="left" /> 
+        </a>
+
+        <div class="game-heading"><a href="{{ post.url }}">{{ post.app_name }}</a></div> 
+        <hr size="2" color="#000000" />
+        <p>{{ post.app_description }}</p>
+      </div>
+  
+{% endfor %}
+</div>
