@@ -38,14 +38,12 @@ iframe {
   width: 100%;
 }
 .title {
-  color: #ffffff;
+  text-transform: uppercase;
+  color: #000000;
   width: 160px;
   padding: 5px;
-  background: #17a554;
   font-size: 13px;
-  text-align: center;
-  margin: 20px auto 20px;
-  border-radius: 5%;
+  margin: 20px 0px 30px 0px;
 }
 .title a {
   letter-spacing: 1.2px;
@@ -75,11 +73,29 @@ iframe {
   font-size: 13px;
   font-weight: bold;
   padding-bottom: 4px;
+  margin: 0px;
   text-transform: uppercase;
 }
 .playstore_download {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.menu {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.menu a {
+  color: #000000;
+}
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menu ul li {
+    display: inline;
+    background: #aaaaaa;
+    padding: 5px;
 }
 .footer {
   padding: 10px;
